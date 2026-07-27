@@ -1,8 +1,7 @@
 import telebot
 import os
 
-# === ТОКЕН (получи у @BotFather) ===
-TOKEN = "ТВОЙ_НОВЫЙ_ТОКЕН_ОТ_BOTFATHER"
+TOKEN = "###################"
 
 bot = telebot.TeleBot(TOKEN)
 
