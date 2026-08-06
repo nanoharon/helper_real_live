@@ -1,3 +1,7 @@
+
+код буду добавлять по мере обновления тоесь тут обновление кода будет не сразу 
+
+
 import telebot
 from telebot import types
 import random
@@ -7,7 +11,7 @@ BOT_TOKEN = "а зачем он тебе?"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 ADMIN_ID = 1882231668  
-GROUP_ID = пока тоже скрою
+GROUP_ID = -1003941453582
 
 @bot.message_handler(commands=['start'])
 def start_command(message):
